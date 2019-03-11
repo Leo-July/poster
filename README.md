@@ -81,7 +81,7 @@ npm install vue-html2canvas qrcode --save
 
 
 ### 参考
-[解决canvas图片getImageData,toDataURL跨域问题](https://www.zhangxinxu.com/wordpress/2018/02/crossorigin-canvas-getimagedata-cors/)
-[js 图片转base64的方式](https://juejin.im/post/5addf74551882567395459e1)
-[利用canvas实现保存图片时，拼上二维码的需求](https://segmentfault.com/a/1190000015547703)
+[解决canvas图片getImageData,toDataURL跨域问题](https://www.zhangxinxu.com/wordpress/2018/02/crossorigin-canvas-getimagedata-cors/)  
+[js 图片转base64的方式](https://juejin.im/post/5addf74551882567395459e1)  
+[利用canvas实现保存图片时，拼上二维码的需求](https://segmentfault.com/a/1190000015547703)  
 
