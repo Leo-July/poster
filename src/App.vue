@@ -1,17 +1,19 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <Poster :bgImage="bgBase64" :local="true"/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import Poster from './components/Poster.vue'
+import bgBase64 from './assets/bgBase64'
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Poster
+  },
+  data(){
+    return {bgBase64}
   }
 }
 </script>
